@@ -1,5 +1,5 @@
 
-![Image](VUB-ETRO_RGB.jpg)
+![Image](pictures/VUB-ETRO_RGB.jpg)
 
 &nbsp;
 # INTRODUCTION AND TASK 1
@@ -23,7 +23,7 @@ In this section, I will introduce my device(macOS 13-inch) specifications. Explo
 Hardware, Network Equipment, Smart Phones and Tablets and any other equipment you will use for this course.
 Tip: Check software such as Open Hardware Monitor
 &nbsp;
-![System Information](hardwareofmac.png)
+![System Information](pictures/hardwareofmac.png)
 
 ##### Device specifications
 1. Operating System: macOS Sequoia (v15.1)
@@ -51,31 +51,31 @@ Tip: Check software such as Open Hardware Monitor
 
 ##### 2.2.1. O.S. updates
 O.S. updates contain new software that helps keep device current. Examples of updates include service packs, version upgrades, security updates, drivers, or other types of updates. Regularly updated macOS ensures the latest security patches and performance enhancements. Updates are automated via System Settings > General > Software Update.
-![Software Updates](softwareupdates.png)
+![Software Updates](pictures/softwareupdates.png)
 &nbsp;
 
 ##### 2.2.2. Firewall
 A firewall decides which network traffic is allowed to pass through and which traffic is deemed dangerous. Essentially, it works by filtering out the good from the bad, or the trusted from the untrusted. Firewalls are intended to secure private networks and the endpoint devices within them, known as network hosts. Network hosts are devices that ‘talk’ with other hosts on the network. They send and receive between internal networks, as well as outbound and inbound between external networks. As it shown in the below picture the firewall is turned on and set up to prevent unauthorised applications, programs and services from accepting incoming connections. The macOS firewall is enabled to block unauthorized connections. Verified through System Settings > Network > Firewall.
-![Firewall](firewall.png)
+![Firewall](pictures/firewall.png)
 &nbsp;
 
 ##### 2.2.3. Antivirus
 Apple operates a threat intelligence process to quickly identify and block malware. Malware defences are structured in three layers: 
 - Prevent launch or execution of malware: App Store, or Gatekeeper combined with Notarisation
-    ![Gatekeeper](gatekeeper.png)
+    ![Gatekeeper](pictures/gatekeeper.png)
 &nbsp;
 - Block malware from running on customer systems: Gatekeeper, Notarisation and XProtect
 - Remediate malware that has executed: XProtect
-    ![Xprotect](xprotect.png)
+    ![Xprotect](pictures/xprotect.png)
 I tested this using the EICAR test file, but detection failed, suggesting either a misconfiguration or outdated definitions. Manual updates and configuration fixes were applied.
 XProtect is active and functioning: The logs confirm that XProtect is performing scans and monitoring device activity as part of macOS's built-in malware protection. After activating Xprotect, the logs showed:
 No critical errors: There are no warning or error messages, suggesting that XProtect is running as intended.
 Device Activity Monitoring: The logs indicate that XProtect might be analyzing user activity or system events for potential threats.
-![Xprotect](xprotectme.png)
+![Xprotect](pictures/xprotectme.png)
 &nbsp;
 ##### 2.2.4. Evaluate your security: EICAR test file, AMTSO Security Features Check,… (propose others!)
-The [EICAR test](eicar.txt) file was developed by the European Institute for Computer Antivirus Research (EICAR) and Computer Antivirus Research Organization (CARO) to test the response of computer antivirus programs. Instead of using real malware, which could cause real damage, this test file allows people to test anti-virus software without having to use a real malware sample. So, this file is NOT actually malicious, but by industry-wide agreement this file is detected as malicious by mainstream products with antivirus functionality so that people can verify that their anti-malware product’s detection capability is configured correctly. 
-![Eicar test](eicartest.png)
+The [EICAR test](pictures/eicar.txt) file was developed by the European Institute for Computer Antivirus Research (EICAR) and Computer Antivirus Research Organization (CARO) to test the response of computer antivirus programs. Instead of using real malware, which could cause real damage, this test file allows people to test anti-virus software without having to use a real malware sample. So, this file is NOT actually malicious, but by industry-wide agreement this file is detected as malicious by mainstream products with antivirus functionality so that people can verify that their anti-malware product’s detection capability is configured correctly. 
+![Eicar test](pictures/eicartest.png)
 - EICAR Test File: Initially not detected; reconfigured XProtect and tested again.
 - AMTSO Security Features Check: Verified active protection features such as download scanning and phishing protection.
 
@@ -84,21 +84,21 @@ The [EICAR test](eicar.txt) file was developed by the European Institute for Com
 By arranging startup applications, cleaning up the system, and implementing regular backups and disk maintenance, your MacBook will perform optimally while ensuring your data is secure. Unused startup applications were disabled via System Settings > General > Login Items, reducing boot time and improving startup performance. 
 ##### 2.3.1. Arrange Startup applications (e.g.: disable the ones you do not use at the startup)
 Optimize system performance by reducing unnecessary startup applications. As a result, it improves boot times and reduces resource usage after startup.
-![Startup Application](login.png)
+![Startup Application](pictures/login.png)
 ##### 2.3.2. System cleanup the update files and disk cleaning (e.g. Ccleaner, Cleanup Windows,…)
 - It improves system performance and more available storage. Storage cleaned through System Settings > Storage.
 - Free up disk space and improve system responsiveness by removing unnecessary files.
-![Storage](storage.png)
+![Storage](pictures/storage.png)
 - I use CleanMyMac X to clear caches and old system logs.
-![Ccleanup](cclean.png)
+![Ccleanup](pictures/cclean.png)
 - Deleting large files by using filter files by size
-![file size](filesize.png)
+![file size](pictures/filesize.png)
 ##### 2.3.3. System repair disk and Backup (e.g. Windows Backup, Google drive backup,…)
 Ensure system integrity and protect data through regular maintenance and backups. I'm using third-party services like Google Drive or Dropbox to back up important documents and settings.
-![backup](backup.png)
+![backup](pictures/backup.png)
 - From  Disk Utility > First Aid, I repair permissions and detect errors.
-![repair](repair.png)
-![disk utility](firstaid.png)
+![repair](pictures/repair.png)
+![disk utility](pictures/firstaid.png)
 
 ---
 
