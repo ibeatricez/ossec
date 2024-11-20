@@ -10,9 +10,10 @@
 - **Date:** 19/11/2024
 &nbsp;
 
-## 1. Introduction 
+## 1. Introduction
 Operating systems and security focus on keeping data safe by implementing rules, ensuring OS availability, using access controls, passwords, and encryption to maintain the confidentiality and integrity of data. A system security policy administrator establishes key rules to safeguard the operating system. OS security involves protecting the system from threats such as viruses, malware, and hackers. It also includes measures to prevent theft, alteration, or loss of critical system information.
 &nbsp;
+
 ---
 ## 2. Task 1
 I analyzed my device's hardware, software, and potential security vulnerabilities. Specifically, I evaluated the specifications of my MacBook Pro along with its connected devices, including removable hardware, network equipment, and software configurations.  
@@ -23,6 +24,7 @@ This task increased my awareness of system security. For instance, I discovered 
 
 Additionally, I ensured the operating system is always up to date, maintaining the latest security patches and performance enhancements.
 &nbsp;
+
 ---
 ### 2.1 Exploring Personal Infrastructure
 In this task, I will introduce my device(macOS 13-inch) specifications. I will also examine the characteristics of my personal computer such as O.S., processor, memory, storage, etc. 
@@ -72,13 +74,12 @@ Apple operates a threat intelligence process to quickly identify and block malwa
 - **Block malware from running:** Gatekeeper, Notarization, and XProtect work together to prevent malicious software from operating on customer systems.
 - **Remediate malware that has executed:**  XProtect actively scans for and mitigates threats if malware manages to execute.
     ![Xprotect](pictures/xprotect.png)
-In addition to macOS’s built-in tools, I use third-party software like Malwarebytes and CleanMyMac X to enhance protection against potential security threats.
 
-To test my system's security, I used the EICAR test file. However, macOS's built-in security features did not flag the file as malicious, as these tools are designed to recognize that the EICAR file is not an actual threat and therefore allow its download.
+In addition to macOS’s built-in tools, I use third-party software like Malwarebytes and CleanMyMac X to enhance protection against potential security threats. To test my system's security, I used the EICAR test file. However, macOS's built-in security features did not flag the file as malicious, as these tools are designed to recognize that the EICAR file is not an actual threat and therefore allow its download.
 
 To ensure optimal protection, I verified that XProtect was enabled and functioning. The logs confirmed that XProtect is actively performing scans and monitoring device activity as part of macOS's malware protection system. Key findings from the logs include:
-        - **No Critical Errors:** The absence of warnings or error messages indicates that XProtect is operating as intended.
-        - **Device Activity Monitoring:** The logs suggest that XProtect is analyzing system events and user activity to identify potential threats.
+- No Critical Errors: The absence of warnings or error messages indicates that XProtect is operating as intended.
+- Device Activity Monitoring: The logs suggest that XProtect is analyzing system events and user activity to identify potential threats.
 ![Xprotect](pictures/xprotectme.png)
 &nbsp;
 #### 2.2.4. Evaluate your security: EICAR test file, AMTSO Security Features Check
@@ -102,8 +103,11 @@ I improved system performance and increased available storage by cleaning up the
 ![file size](pictures/filesize.png)
 #### 2.3.3. System repair disk and Backup
 I use third-party services like Google Drive and Dropbox to back up important documents and settings. Additionally, macOS's Time Machine feature provides backup support, creating local snapshots of the system to ensure data protection and recovery. But I am not using this feature.
+
 ![backup](pictures/backup.png)
-- I repair permissions and detect errors from  Disk Utility > First Aid.
+
+I used **Disk Utility > First Aid** to repair permissions and detect errors, ensuring the integrity and proper functioning of my system.
+
 ![repair](pictures/repair.png)
 ![disk utility](pictures/firstaid.png)
 
@@ -121,6 +125,7 @@ One challenge I faced was using the EICAR test file. Initially, it was not detec
 The lack of detailed documentation on macOS security logs also delayed my evaluation. This was due to my unfamiliarity with how macOS handles certain test files, such as the EICAR file, which are intentionally allowed under specific conditions.
 
 The task 1 is enough to understand the system and familiar with device's features.
+
 ---
 
 ## 4. References
