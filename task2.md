@@ -55,42 +55,30 @@ Activity Monitor is a built-in macOS utility that provides a graphical interface
 &nbsp;  
 
 ### 1.2 Terminal-Based Process Monitoring: `top` Command  
-Run in Terminal:  
-```sh
-top
-```
+Run in Terminal:  `top`
 ![Activity Monitor](pictures2/top.png)
 - Displays real-time CPU and memory usage of running processes.
 - Lists a list of active processes sorted by CPU usage.
 - Shows memory consumption, process ID (PID), and execution time.
 - Updates in real-time, providing dynamic process tracking.
-- ![Activity Monitor](pictures2/topdetails.png)
+![Activity Monitor](pictures2/topdetails.png)
 
 &nbsp;  
 ### 1.3. Monitoring Network Connections
 Tracking network activity is essential for identifying unauthorized connections and monitoring resource usage. Below are alternatives to **netstat** for macOS.
 #### 1.3.1 `nettop` (Real-time Network Monitoring)
-Run in Terminal:  
-```sh
-nettop
-```
+Run in Terminal:  `nettop`
 - Displays active network connections in real-time.
 ![Activity Monitor](pictures2/nettop.png)
 ![Activity Monitor](pictures2/nettopdetails.png)
 ![Activity Monitor](pictures2/network.png)
 #### 1.3.2 `lsof` (List Open Network Connections)
-Run in Terminal:  
-```sh
-sudo lsof -i -P
-```
+Run in Terminal:  `sudo lsof -i -P`
 
 Lists processes utilizing network connections, including ports and protocols.
 ![Activity Monitor](pictures2/lsof.png)
 #### 1.3.3 `ifconfig` (Check Network Interfaces)
-Run in Terminal:  
-```sh
-ifconfig
-```
+Run in Terminal:  `ifconfig`
 ![Activity Monitor](pictures2/ipconfig.png)
 Displays details on active network interfaces, IP addresses, and data transmission.
 ![Activity Monitor](pictures2/ipadd.png)
