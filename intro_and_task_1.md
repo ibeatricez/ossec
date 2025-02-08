@@ -112,6 +112,9 @@ I used **Disk Utility > First Aid** to repair permissions and detect errors, ens
 ![disk utility](pictures/firstaid.png)
 
 ---
+#### 2.4 Create a GitHub repository where all the reports and files associated to the project will be placed.
+
+https://github.com/ibeatricez/ossec
 
 ## 3. Conclusion
 This task provided valuable insights into my device's capabilities and current vulnerabilities. I gained awareness of tools like XProtect, which allows me to monitor security and review logs effectively.  
